@@ -233,7 +233,7 @@ function projects() {
     const projects = [
         {
             name: 'RESTCountriesAPI', 
-            description  : 'this website shows the information about all the countries in the world', 
+            preview  : 'https://responsive-restc-ountry-api.vercel.app/', 
         },
         {
             name: 'English Web Dictionary', 
@@ -271,7 +271,7 @@ function projects() {
     projects.map(( {name, preview} ) => {
         const info =  `
             <h1 class="font-bold text-white">${name}</h1>
-            <span class="text-rose-500">→ <span class="text-white"> <a target="_blank" href="${preview} class="">Preview</a></span></span>
+            <span class="text-rose-500">→ <span class="text-white"> <a target="_blank" href="${preview}" class="">Preview</a></span></span>
         `
 
         let divProject = document.createElement('div');
