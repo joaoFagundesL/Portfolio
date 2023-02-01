@@ -308,35 +308,35 @@ function createInput(message) {
             inputContainer.append(div);
         }
         
-        else if(value == 'clear') {
+        else if(value == 'clear' || value == 'Clear') {
             clear();
         }
 
-        else if(value == 'education') {
+        else if(value == 'education' || value == 'Education') {
             education();
         }
 
-        else if(value == 'socials') {
+        else if(value == 'socials' || value == 'Socials') {
             socials();
         }
 
-        else if(value == 'cowsay') {
+        else if(value == 'cowsay' || value == 'Cowsay') {
             await cowsay(); // Here I'm waiting for the 'cowsay()' function. When it is done, I can continue with the code. If I remove the 'await', it will create another input even if the data is not fetched yet
         }
 
-        else if(value == 'about') {
+        else if(value == 'about' || value == 'About') {
             about();
         }
 
-        else if(value == 'skills') {
+        else if(value == 'skills' || value == 'Skills') {
             skillsTerminal();
         }
 
-        else if(value == 'email') {
+        else if(value == 'email' || value == 'Email') {
             email();
         }
 
-        else if(value == 'projects') {
+        else if(value == 'projects' || value == 'Projects') {
             projects();
         }
 
