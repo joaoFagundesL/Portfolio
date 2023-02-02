@@ -308,7 +308,7 @@ function createInput(message) {
     if (event.key === "Enter") {
         const value = input.value;
         
-        if(value == 'help' || value == 'help') {
+        if(value == 'help' || value == 'Help') {
             let div = help();
             inputContainer.append(div);
         }
