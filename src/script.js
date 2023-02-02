@@ -251,6 +251,11 @@ function projects() {
         },
 
         {
+            name: 'Snippet Landing Page',
+            preview: 'https://snippet-code.netlify.app/',
+        },
+
+        {
             name: 'OptimusTech',
             preview: 'https://7-days-of-code-htmlcss.vercel.app/',
         },
