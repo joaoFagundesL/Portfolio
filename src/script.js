@@ -226,6 +226,8 @@ function email() {
     let divContainerEmail = document.createElement('div');
     divContainerEmail.innerHTML = spanTitle + spanContent;
     divContainerEmail.classList.add('mb-4');
+    window.location.href = "mailto:joao.230702@alunos.utfpr.edu.br";
+    
     skills.appendChild(divContainerEmail);
 }
 
