@@ -178,6 +178,7 @@ async function getQuote() {
 function skillsTerminal() {
 	const skillsList = [
 		{ name: 'HTML, CSS, SCSS, Tailwind, JavaScript, API' },
+		{ name: 'Learning React' },
 		{ name: 'Java, JPA, Hibernate, Maven' },
 		{ name: 'MySQL' },
 		{ name: 'C' },
