@@ -211,7 +211,7 @@ function skillsTerminal() {
 }
 
 function whats() {
-	const phoneNumber = '11985608304';
+	const phoneNumber = '+5511985608304';
 	const message = 'Hi!';
 	let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
