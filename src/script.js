@@ -56,6 +56,7 @@ function help() {
 		{ name: 'help', description: '→ if you are struggling to use this' },
 		{ name: 'clear', description: '→ clear the terminal' },
 		{ name: 'email', description: '→ here you can check my email' },
+		{ name: 'whatsapp', description: '→ send me a message' },
 		{ name: 'cowsay', description: '→ here is an advice/quote, im sure you will like it' },
 	];
 
@@ -209,6 +210,14 @@ function skillsTerminal() {
 	skills.appendChild(divContainerSkills);
 }
 
+function whats() {
+	const phoneNumber = '11985608304';
+	const message = 'Hi!';
+	let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+	window.open(url, '_blank');
+}
+
 function about() {
 	const span = `<span class="text-rose-500">* <span class="text-white">joao fagundes</span> <span class="text-rose-500">*</span> </span>`
 	const p = `<p class="text-white mt-4">I'm a computer science student at utfpr seeking for an entry-level position as a front-end developer. </p>`
@@ -275,6 +284,7 @@ function projects() {
 		{
 			name: 'Linux Binary Tree (C)',
 			preview: 'https://www.onlinegdb.com/9rselzoj7',
+
 		},
 	];
 
@@ -347,6 +357,10 @@ function createInput(message) {
 
 			else if (value == 'email' || value == 'Email') {
 				email();
+			}
+
+			else if (value == 'whatsapp' || value == 'Whatsapp') {
+				whats();
 			}
 
 			else if (value == 'projects' || value == 'Projects') {
