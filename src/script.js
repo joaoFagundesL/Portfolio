@@ -246,7 +246,7 @@ function whats() {
 
 function about() {
   const span = `<span class="text-rose-500">* <span class="text-white">joao fagundes</span> <span class="text-rose-500">*</span> </span>`;
-  const p = `<p class="text-white mt-4">I'm a computer science student at utfpr seeking for an entry-level position as a front-end developer. </p>`;
+  const p = `<p class="text-white mt-4">I'm a computer science student at utfpr seeking for an entry-level position as a developer. </p>`;
 
   let divAbout = document.createElement("div");
   divAbout.innerHTML = span + p;
@@ -269,26 +269,37 @@ function email() {
 function projects() {
   const projects = [
     {
-      name: "RESTCountriesAPI",
+      name: "RESTCountriesAPI (JS)",
       preview: "https://responsive-restc-ountry-api.vercel.app/",
     },
+
     {
-      name: "English Web Dictionary",
+      name: "English Web Dictionary (JS)",
       preview: "https://web-english-dictionary.vercel.app/",
     },
 
     {
-      name: "Splitter",
+      name: "Simulador de uma Blockchain (C)",
+      preview: "https://github.com/joaoFagundesL/blockchain",
+    },
+
+    {
+      name: "Converter imagem para binário (C)",
+      preview: "https://github.com/joaoFagundesL/thresholding-processing",
+    },
+
+    {
+      name: "Splitter (React)",
       preview: "https://juca-tip-calculator.netlify.app/",
     },
 
     {
-      name: "Quote Slip",
+      name: "Quote Slip (React)",
       preview: "https://quote-slip.netlify.app/",
     },
 
     {
-      name: "News Homepage",
+      name: "News Homepage (Html/Css)",
       preview: "https://challenge-grid-front-end.vercel.app/",
     },
 
@@ -303,17 +314,17 @@ function projects() {
     },
 
     {
-      name: "OptimusTech",
+      name: "OptimusTech (Html/Css)",
       preview: "https://7-days-of-code-htmlcss.vercel.app/",
     },
 
     {
-      name: "Product preview card",
+      name: "Product preview card (Html/Css)",
       preview: "https://front-end-mentor-product-view-card.vercel.app/",
     },
 
     {
-      name: "College Management System (Java)",
+      name: "College Management System (Java/MySQL)",
       preview: "https://github.com/joaoFagundesL/SchoolManagementSystem",
     },
 
