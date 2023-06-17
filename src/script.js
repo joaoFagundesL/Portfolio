@@ -47,7 +47,7 @@ function help() {
     { name: "education", description: "→ my education" },
     { name: "about", description: "→ a little bit about me" },
     { name: "skills", description: "→ what about take a look at my skills?" },
-    { name: "projects", description: "→ see about my projects" },
+    { name: "projects", description: "→ check my projects" },
     { name: "socials", description: "→ check out all my social accounts" },
     { name: "help", description: "→ if you are struggling to use this" },
     { name: "clear", description: "→ clear the terminal" },
