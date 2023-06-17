@@ -71,7 +71,7 @@ function help() {
       // I could use "commands.map((e) => )". But I would have to use "e.name", "e.description".
       return ` 
         <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-new1">
-            <span class="text-rose-500"> <span class="text-green-400">➤</span> ${name}</span>
+            <span class="text-blue-500"> <span class="text-green-400">➤</span> ${name}</span>
             <span class="col-start-2 text-white">${description}</span>
         </div>
         `;
@@ -110,7 +110,7 @@ function socials() {
       return `
             <ul >
                 <li class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-new1">
-                    <p class="text-rose-500">* ${name}</p>
+                    <p class="text-cifrao">* ${name}</p>
                     <a class="text-white underline" target="_blank" href="${link}">${link}</a>
                 </li>
             </ul>
@@ -198,10 +198,11 @@ function skillsTerminal() {
   const skillsList = [
     { name: "HTML, CSS, SCSS, Tailwind, JavaScript, API" },
     { name: "Learning React" },
-    { name: "Java, JPA, Hibernate, Maven" },
+    { name: "Java, JPA, Hibernate, Maven, JPQL" },
     { name: "MySQL" },
-    { name: "C" },
-    { name: "Git, GitHub" },
+    { name: "C, Data Structures" },
+    { name: "Linux (Arch Linux), VIM, NeoVim" },
+    { name: "Git, GitHub, GitFlow" },
     { name: "English C1 Level", link: "https://www.efset.org/cert/2MSi24" },
   ];
 
@@ -216,7 +217,7 @@ function skillsTerminal() {
     .map(({ name, link }) => {
       return `
              <ul class="flex flex-col sm:flex-row sm:justify-between">
-                <li class="text-white"><span class="text-rose-500">→ </span> ${name}</li>
+                <li class="text-white"><span class="text-cifrao">→ </span> ${name}</li>
                 ${
                   link
                     ? `<li><a class="underline text-white" target="_blank" href="${link}">EF SET Certificate</a></li>`
@@ -245,7 +246,7 @@ function whats() {
 }
 
 function about() {
-  const span = `<span class="text-rose-500">* <span class="text-white">joao fagundes</span> <span class="text-rose-500">*</span> </span>`;
+  const span = `<span class="text-cifrao">* <span class="text-white">joao fagundes</span> <span class="text-cifrao">*</span> </span>`;
   const p = `<p class="text-white mt-4">I'm a computer science student at utfpr seeking for an entry-level position as a developer. </p>`;
 
   let divAbout = document.createElement("div");
@@ -256,7 +257,7 @@ function about() {
 
 function email() {
   const spanTitle = `<p class=" mb-4 text-white">please send me a message</p>`;
-  const spanContent = `<span class="text-white"><span class="text-rose-500">→ </span>joao.230702@alunos.utfpr.edu.br</span>`;
+  const spanContent = `<span class="text-white"><span class="text-cifrao">→ </span>joao.230702@alunos.utfpr.edu.br</span>`;
 
   let divContainerEmail = document.createElement("div");
   divContainerEmail.innerHTML = spanTitle + spanContent;
@@ -340,7 +341,7 @@ function projects() {
   projects.map(({ name, preview }) => {
     const info = `
             <h1 class="font-bold text-white">${name}</h1>
-            <span class="text-rose-500">→ <span class="text-white"> <a target="_blank" href="${preview}" class="">Preview</a></span></span>
+            <span class="text-cifrao">→ <span class="text-white"> <a target="_blank" href="${preview}" class="">Preview</a></span></span>
         `;
 
     let divProject = document.createElement("div");
