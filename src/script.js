@@ -125,7 +125,7 @@ function socials() {
 function education() {
   const education = [
     {
-      title: "Bacharelado em Ciência da Computação",
+      title: "Computer Science",
       description: "Universidade Tecnológica Federal do Paraná | Ponta Grossa",
       time: "2020 ~ 2024",
     },
@@ -197,10 +197,10 @@ async function getQuote() {
 function skillsTerminal() {
   const skillsList = [
     { name: "HTML, CSS, SCSS, Tailwind, JavaScript, API" },
-    { name: "Learning React" },
+    { name: "ReactJS, Node.js, Express.js" },
     { name: "Java, JPA, Hibernate, Maven, JPQL" },
     { name: "MySQL" },
-    { name: "C, Data Structures" },
+    { name: "C, Data Structures, Algorithm Analysis" },
     { name: "Linux (Arch Linux), VIM, NeoVim" },
     { name: "Git, GitHub, GitFlow" },
     { name: "English C1 Level", link: "https://www.efset.org/cert/2MSi24" },
