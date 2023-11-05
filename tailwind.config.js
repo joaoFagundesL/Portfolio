@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/script.js",
-  ],
+  content: ["./index.html", "./src/script.js"],
   theme: {
     extend: {
       maxWidth: {
@@ -11,7 +8,7 @@ module.exports = {
       },
 
       fontFamily: {
-        code: ["Source Code Pro", "monospace"],
+        code: ["Roboto Mono", "monospace"],
       },
 
       gridTemplateColumns: {
