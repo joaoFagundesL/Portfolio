@@ -864,10 +864,6 @@ video {
   font-family: Roboto Mono, monospace;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -986,10 +982,6 @@ video {
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-
-  .sm\:block {
-    display: block;
   }
 
   .sm\:grid {
