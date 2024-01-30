@@ -63,12 +63,12 @@ function help() {
 
   // Instead of writing each class add, I can do this way. It's like passing an array of classes
   divContainer.classList.add(
-    ...["flex", "flex-col", "gap-4", "sm:gap-0", "mb-6"]
+    ...["flex", "flex-col", "gap-4", "sm:gap-0", "mb-6"],
   );
 
   const commandList = commands
     .map(({ name, description }) => {
-      // I could use "commands.map((e) => )". But I would have to use "e.name", "e.description".
+      // I could've used "commands.map((e) => )". But I would have to use "e.name", "e.description".
       return ` 
         <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-new1">
             <span class="text-blue-500"> <span class="text-green-400">➤</span> ${name}</span>
@@ -102,7 +102,7 @@ function socials() {
 
   let divContainerSocials = document.createElement("div");
   divContainerSocials.classList.add(
-    ...["flex", "flex-col", "gap-4", "sm:gap-0", "mb-6"]
+    ...["flex", "flex-col", "gap-4", "sm:gap-0", "mb-6"],
   );
 
   const socialList = socials
@@ -275,17 +275,22 @@ function projects() {
     },
 
     {
+      name: "Restaurant Restful API (NodeJS)",
+      preview: "https://github.com/joaoFagundesL/restful-api-typescript",
+    },
+
+    {
       name: "English Web Dictionary (JS)",
       preview: "https://web-english-dictionary.vercel.app/",
     },
 
     {
-      name: "Simulador de uma Blockchain (C)",
+      name: "Blockchain Simulator (C)",
       preview: "https://github.com/joaoFagundesL/blockchain",
     },
 
     {
-      name: "Converter imagem para binário (C)",
+      name: "Convert image to binary (C)",
       preview: "https://github.com/joaoFagundesL/thresholding-processing",
     },
 
@@ -346,7 +351,7 @@ function projects() {
 
     let divProject = document.createElement("div");
     divProject.classList.add(
-      ...["flex", "flex-col", "sm:grid", "grid-cols-1", "sm:grid-cols-new1"]
+      ...["flex", "flex-col", "sm:grid", "grid-cols-1", "sm:grid-cols-new1"],
     );
     divProject.innerHTML = info;
     divProjectContainer.appendChild(divProject);
@@ -369,7 +374,7 @@ function createInput(message) {
   inputContainer.appendChild(input);
 
   input.classList.add(
-    ...["border-none", "bg-body", "outline-none", "text-white"]
+    ...["border-none", "bg-body", "outline-none", "text-white"],
   );
   input.focus();
 
