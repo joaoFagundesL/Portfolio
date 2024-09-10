@@ -198,7 +198,7 @@ function skillsTerminal() {
   const skillsList = [
     { name: "HTML, CSS, SCSS, Tailwind, JavaScript, API" },
     { name: "ReactJS, Node.js, Express.js" },
-    { name: "Java, JPA, Hibernate, Maven, JPQL" },
+    { name: "Java, JPA, Hibernate, Maven, JPQL, Spring Boot" },
     { name: "MySQL" },
     { name: "C, Data Structures, Algorithm Analysis" },
     { name: "Linux (Arch Linux), VIM, NeoVim" },
@@ -269,6 +269,11 @@ function email() {
 
 function projects() {
   const projects = [
+    {
+      name: "Distributed System with Client-Server",
+      preview: "https://github.com/joaoFagundesL/sistemas-distribuidos",
+    },
+
     {
       name: "RESTCountriesAPI (JS)",
       preview: "https://responsive-restc-ountry-api.vercel.app/",
