@@ -295,6 +295,11 @@ function projects() {
     },
 
     {
+      name: "Premier League Data Mining",
+      preview: "https://github.com/joaoFagundesL/python-data-mining-premier-league"
+    },
+
+    {
       name: "Convert image to binary (C)",
       preview: "https://github.com/joaoFagundesL/thresholding-processing",
     },
@@ -340,7 +345,7 @@ function projects() {
     },
 
     {
-      name: "Linux Binary Tree (C)",
+      name: "Linux Tree Command Line (C)",
       preview: "https://www.onlinegdb.com/9rselzoj7",
     },
   ];
